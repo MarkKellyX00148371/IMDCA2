@@ -27,6 +27,10 @@ section {
   background-color: pink;
 }
 
+#aboutmerow{
+  padding: 20px;
+}
+
 #college {
   background-color: light;
   padding: 10px;
@@ -68,17 +72,24 @@ text-align: left;
 
 #secondary{
   padding: 20px;
-
 }
 
 #secon{
   text-align: center;
+  border: solid;
+  padding:5px;
 }
 
 #damos{
   height:300px;
 }
 
-macdaras{
+#macdaras{
   height: 300px;
+}
+
+#prim{
+  text-align: center;
+  border: solid;
+  padding:5px;
 }

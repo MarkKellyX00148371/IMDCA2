@@ -36,7 +36,13 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#workexp">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact me</a>
           </li>
         </ul>
       </div>
@@ -54,14 +60,59 @@
   </header>
 
   <section id="aboutme">
-     <div class="container-fluid bg-dark text-white">
-       <div class="row">
-         <div class="col-lg-8 mx-auto text-center">
-           <br>
-           <h2>About Me</h2>
-           <p class="lead">I am 20 years old and I am from Dublin, Ireland. I am currently in my 4th and final year of college studying Computing with IT Managment in TU Dublin - Tallaght Campus </p>
+     <div class="container-fluid bg-dark">
+       <div id="aboutmerow"class="row">
+         <div class="col-lg-6 mx-auto text-center">
 
-           <p class="lead">I have always had an interest in technology and computers which only grew when I started I started going to college and learning about all things computing and getting hands on practise in the field.</p>
+           <h2 class="aboutmehead text-white"> About Me</h2>
+
+           <div id="accordion">
+             <div class="card">
+               <div class="card-header" id="personal">
+                 <h5 class="mb-0">
+                   <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     Personal
+                   </button>
+                 </h5>
+               </div>
+
+               <div id="personal" class="collapse show" aria-labelledby="personal" data-parent="#accordion">
+                 <div class="card-body">
+                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                 </div>
+               </div>
+             </div>
+             <div class="card">
+               <div class="card-header" id="headingTwo">
+                 <h5 class="mb-0">
+                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     Technical Interests
+                   </button>
+                 </h5>
+               </div>
+               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                 <div class="card-body">
+                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                 </div>
+               </div>
+             </div>
+             <div class="card">
+               <div class="card-header" id="headingThree">
+                 <h5 class="mb-0">
+                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     Outside work and College
+                   </button>
+                 </h5>
+               </div>
+               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                 <div class="card-body">
+                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
          </div>
        </div>
      </div>
@@ -309,6 +360,7 @@
 
              <div id="secon" class="col-lg-6">
                <h1>Secondary School</h1>
+               <p>Click on image to see more.</p>
              <img id="macdaras" src="images/macdaras.jpg" alt="..." class="img-thumbnail" data-toggle="modal" data-target="#macmodal">
 
                <!-- The Modal -->
@@ -339,6 +391,7 @@
 
             <div id="prim" class="col-lg-6">
             <h1>Primary School</h1>
+            <p>Click on image to see more</p>
             <img id="damos" src="images/damos.jpg" alt="..." class="img-thumbnail" data-toggle="modal" data-target="#damosmodal">
 
 
@@ -349,13 +402,13 @@
 
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">St Damians, Perrystown</h4>
+                    <h4 class="modal-title">St Damians Primary School</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                   </div>
 
                   <!-- Modal body -->
                   <div class="modal-body">
-                   <p>I went to St. Damians Primary School in Perrystown, I have great memories from my time here especially around football and different sporting events</p>
+                   <p>I went to St. Damians Primary School in Perrystown, I have great memories from my time here especially around football and different sporting events.</p>
                   </div>
 
                   <!-- Modal footer -->
@@ -368,6 +421,19 @@
          </div>
 </div>
    </section>
+
+
+ <section id="projects" class="bg-light">
+<div class="row bg-dark">
+<div class="col-lg-12 mx-auto text-center text-white">
+<h1>Projects</h1>
+
+
+</div>
+</div>
+
+</section>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
