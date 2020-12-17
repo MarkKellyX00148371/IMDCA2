@@ -93,3 +93,21 @@ text-align: left;
   border: solid;
   padding:5px;
 }
+
+#projects .card{
+  align-items: center;
+}
+
+#projects .card-header{
+  text-decoration-color: red;
+}
+
+.col-centered{
+   float: none;
+   margin: 0 auto;
+   padding:50px;
+}
+
+#workexp h2{
+  text-align: center;
+}
