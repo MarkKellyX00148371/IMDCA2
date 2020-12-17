@@ -23,6 +23,45 @@ section {
   background-color: white;
 }
 
+#education{
+  background-color: pink;
+}
 
+#college {
+  background-color: light;
+  padding: 10px;
+  border:solid;
+}
 
-border-style: solid;
+#educationhead{
+  text-align: center;
+}
+
+#tabs{
+  padding:10px;
+}
+
+#v-pills-tabContent{
+  background-color: light;
+}
+
+.list-group-item{
+text-align: left;
+}
+
+#tudimg{
+
+}
+
+#aws{
+  padding: 9px;
+}
+
+.collegetud h2{
+  text-decoration: underline;
+}
+
+#college{
+  background-color: white;
+  padding: 25px;
+}
